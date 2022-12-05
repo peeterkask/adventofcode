@@ -1,7 +1,7 @@
 module Day3 (part1, part2) where
 import Data.List (find)
 import Data.List.Split (chunksOf)
-import Data.Char (ord, isUpper, toLower)
+import Data.Char (ord, isUpper)
 
 parseInput :: String -> [String]
 parseInput raw = lines raw
